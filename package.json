@@ -24,9 +24,9 @@
     "webpack-merge": "^0.13.0"
   },
   "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
     "react": "^15.1.0",
     "react-dom": "^15.1.0"
   }
 }
-
-
