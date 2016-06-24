@@ -3,6 +3,8 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import Header from './components/header';
 import Bubble from './components/bubble';
+import Binary from './components/binary';
+import HashTable from './components/hashtable';
 
 
 class App extends Component {
@@ -10,7 +12,11 @@ class App extends Component {
 		return (
 			<div>
 			  <Header />
-			  <Bubble />
+              <div className="algo-row">
+			      <Bubble />
+			      <Binary />
+			      <HashTable />
+			   </div>
 			</div>
 		);
 	}

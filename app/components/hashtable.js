@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 
 
-class Bubble extends Component {
+class HashTable extends Component {
 	render(){
 		return(
           <div className="bubble-sort col-xs-12">
-              <h1>Bubble Sort</h1>
+              <h1>Hash Table</h1>
               <p>
                 The Bubble Sort Algorithm is one of the most famous sorting
                 algorithms known to the computer science community and works by 
@@ -21,4 +21,4 @@ class Bubble extends Component {
 
 
 
-export default Bubble;
+export default HashTable;

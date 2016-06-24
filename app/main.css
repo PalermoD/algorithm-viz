@@ -1,16 +1,16 @@
 body {
-	background-color:#D4D4D4;
+	background-color:white;
 }
 
 .header {
-  background: url(https://33.media.tumblr.com/6af87f2200cdef00013a4816a7910593/tumblr_nktsrmeQqL1u4isgqo1_540.gif) no-repeat center center; 
+  background: url(http://i.imgur.com/nbhzCHk.gif) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 350px;
+  height: 450px;
   vertical-align: middle;
-  color:white;
+  color:black;
   margin-top:-50px; 
 
 }
@@ -31,17 +31,46 @@ body {
 .bubble-sort {
    background-color:#2F2F2F;
    margin-top:30px;
-   margin-left:auto;
-   margin-right:auto; 
+   margin-left: 25px;
    text-align: center; 
-   width: 80%;
+   width: 30%;
    color: white;
    border-radius:5px; 
    padding: 10px;
+   float: left;
 }
 
 
 .img-responsive {
   margin-left:auto;
   margin-right: auto; 
+}
+
+.row {
+	display: inline-block;
+}
+
+.algo-row {
+	color: black;
+	margin-right: auto;
+    margin-left: auto;
+	border-radius: 1%;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .bubble-sort {
+   background-color:#2F2F2F;
+   margin-top:30px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center; 
+   width: 80%;
+   color: white;
+   border-radius:5px; 
+   padding: 10px;
+   float: none;
+  }
+ 
 }
