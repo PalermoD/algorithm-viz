@@ -10,7 +10,11 @@ class HashTable extends Component {
               <button onClick={() => this.refs.simpleDialog.show()}>Learn More</button>
               <div className="pop-up">
                   <SkyLight hideOnOverlayClicked ref="simpleDialog" title="Hash Table">
-                     Hello, I dont have any callback.
+                      A hash table (hash map) is a data structure 
+                      used to implement an associative array, a structure that can 
+                      map keys to values. A hash table uses a hash function to compute 
+                      an index into an array of buckets or slots, from which the desired 
+                      value can be found.
                   </SkyLight>
               </div>
               <p>

@@ -8,6 +8,7 @@ class Header extends Component{
 		return(
 		  <div className="header">
               <h1 className="port-text">Algorithm Notebook</h1>
+              <h3 className="port-t">By Palermo Deschamps</h3>
           </div>
 		);
 	}
