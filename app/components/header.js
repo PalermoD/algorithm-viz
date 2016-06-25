@@ -7,7 +7,7 @@ class Header extends Component{
 	render(){
 		return(
 		  <div className="header">
-              <h1 className="port-text">Algorihtms Visulazation</h1>
+              <h1 className="port-text">Algorithm Notebook</h1>
           </div>
 		);
 	}

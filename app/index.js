@@ -5,6 +5,7 @@ import Header from './components/header';
 import Bubble from './components/bubble';
 import Binary from './components/binary';
 import HashTable from './components/hashtable';
+import Example from './components/lightbox';
 
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
 			      <Bubble />
 			      <Binary />
 			      <HashTable />
+			      
 			   </div>
 			</div>
 		);

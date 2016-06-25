@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import SkyLight from 'react-skylight';
 
 
 class HashTable extends Component {
@@ -6,14 +7,21 @@ class HashTable extends Component {
 		return(
           <div className="bubble-sort col-xs-12">
               <h1>Hash Table</h1>
+              <button onClick={() => this.refs.simpleDialog.show()}>Learn More</button>
+              <div className="pop-up">
+                  <SkyLight hideOnOverlayClicked ref="simpleDialog" title="Hash Table">
+                     Hello, I dont have any callback.
+                  </SkyLight>
+              </div>
               <p>
-                The Bubble Sort Algorithm is one of the most famous sorting
-                algorithms known to the computer science community and works by 
-                measuring the size of two values and sorting them that way till
-                it has went through all the values in the set.
+                A hash table (hash map) is a data structure 
+                used to implement an associative array, a structure that can 
+                map keys to values. A hash table uses a hash function to compute 
+                an index into an array of buckets or slots, from which the desired 
+                alue can be found.
               </p>
 
-              <div className="bubble-img"><img src={'https://s3.amazonaws.com/algoimages/bubbleSort.jpg'} alt="boohoo" className="img-responsive"/></div>
+              <div className="bubble-img"><img src={'http://visualgo.net/img/gif/hashtable.gif'} alt="boohoo" className="img-responsive"/></div>
           </div>
 	    );
 	}
