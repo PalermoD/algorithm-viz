@@ -15,6 +15,7 @@ class HashTable extends Component {
                       map keys to values. A hash table uses a hash function to compute 
                       an index into an array of buckets or slots, from which the desired 
                       value can be found.
+                      
                   </SkyLight>
               </div>
               <p>
